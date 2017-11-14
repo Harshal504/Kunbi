@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hammer.kunbi.MainActivity">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="User name"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70sp"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:ems="10"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username"
+        android:layout_alignStart="@+id/username"/>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sign in"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/password"/>
+
+</RelativeLayout>
